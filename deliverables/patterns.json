@@ -1,0 +1,19 @@
+{
+  "patterns": [
+    {
+      "id": "aws_access_key_id",
+      "regex": "AKIA[0-9A-Z]{16}",
+      "note": "Classic AWS access key id shape starting with AKIA. Other prefixes exist. Check AWS docs before you treat this regex as complete."
+    },
+    {
+      "id": "github_pat",
+      "regex": "ghp_[A-Za-z0-9]{36}",
+      "note": "GitHub personal access token prefix ghp_ plus 36 characters. Confirm the current length and prefixes in GitHub docs."
+    },
+    {
+      "id": "private_key_header",
+      "regex": "-----BEGIN [A-Z ]*PRIVATE KEY-----",
+      "note": "PEM header line. The fixture header includes the word FAKE so it is not a key block."
+    }
+  ]
+}

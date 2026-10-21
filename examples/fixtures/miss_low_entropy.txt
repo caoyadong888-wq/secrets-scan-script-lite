@@ -1,0 +1,4 @@
+PASSWORD=changeme
+TOKEN=abcdefghijklmnopqrst
+HEX=0000000000000000000000000000000000000000
+NOTE=this-is-a-short-label

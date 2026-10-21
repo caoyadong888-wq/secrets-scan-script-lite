@@ -1,0 +1,2 @@
+# Fake GitHub token shape. The body is the word FAKE repeated.
+TOKEN=ghp_FAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKEFAKE

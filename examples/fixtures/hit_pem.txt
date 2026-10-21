@@ -1,0 +1,4 @@
+# Fake PEM header. There is no key material under it.
+-----BEGIN FAKE PRIVATE KEY-----
+FAKEFAKEFAKE
+-----END FAKE PRIVATE KEY-----
